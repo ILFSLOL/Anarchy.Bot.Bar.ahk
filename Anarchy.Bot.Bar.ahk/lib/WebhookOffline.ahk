@@ -1,7 +1,7 @@
 WebhookOffline() {
 
 {
-    WebhookURL := "https://discordapp.com/api/webhooks/919743420610801704/MsZKezjQXThF5Es_yW7YYGpfnTiQA6UVte4eDGvZ2lUV8V9TE1XCl4ZJNsV2ZgGIKXF4"
+    WebhookURL := ""
 
     json_str =
     (
