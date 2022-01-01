@@ -11,9 +11,7 @@ Loop, 10
     Click
     Sleep 1100
 }
-Sleep 300
-Send {E}
-Sleep 300
+Sleep 100
 
 ;Check BadOmen Level
 
@@ -23,14 +21,9 @@ if (ErrorLevel = 2)
     Sleep 100
 else if (ErrorLevel = 1)
 {
-    Send {E}
-    Sleep 300
+    Sleep 100
     goto CheckBadOmen
 }
 else
-    Send {E}
-    Sleep 300
-
-Return
-
+    Sleep 100
 }
