@@ -49,7 +49,7 @@ MoveRight(20)
 
 sleep 100
 
-Moveback(22000)
+Moveback(30000)
 
 sleep 100
 
