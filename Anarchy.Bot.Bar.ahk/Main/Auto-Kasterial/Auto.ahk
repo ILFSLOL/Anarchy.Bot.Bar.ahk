@@ -27,11 +27,11 @@ MoveForward(18000)
 
 MoveLeft(4000)
 
-Sleep 1000
+Sleep 2000
 
 MoveRight(1000)
 
-sleep 100
+sleep 1000
 
 MoveLeft(20)
 
