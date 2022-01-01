@@ -5,6 +5,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 WebhookOnline()
 
+Loop,
+
+{
+
+RaidStartWebHook()
+
 Sleep 100
 
 BadOmen()
@@ -27,3 +33,29 @@ Click
 Sleep 1100
 }
 
+sleep 100
+
+MoveRight(20)
+
+sleep 100
+
+Moveback(22000)
+
+sleep 100
+
+MoveLeft(3000)
+
+sleep 100
+
+MoveBack(3000)
+
+sleep 100
+
+Moveright(3000)
+
+sleep 100
+
+moveleft(20)
+
+sleep 100
+}
