@@ -25,7 +25,17 @@ MoveRight(3000)
 
 MoveForward(18000)
 
+MoveLeft(4000)
+
+Sleep 1000
+
+MoveRight(1000)
+
+sleep 100
+
 MoveLeft(20)
+
+sleep 100
 
 loop, 550
 {
