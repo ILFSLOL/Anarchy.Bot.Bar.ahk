@@ -6,7 +6,7 @@ BadOmenStartWebhook() {
     json_str =
     (
     {
-        "content": "**Status**\nIm Now Starting A Raid!"
+        "content": "**Status**\nIm Now Farming BadOmen!"
     }
     )
     WebClient := ComObjCreate("WinHttp.WinHttpRequest.5.1")
